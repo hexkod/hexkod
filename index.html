@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="http://fonts.cdnfonts.com/css/valorant?styles=64778" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fa085272e5.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>  
+            <a href="#" class="logo">Hexkod</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>Hello World,<br>I'm <span>Imran</span></h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos deserunt recusandae porro! Sint animi molestiae, vitae aut consequatur illo quisquam.</p>
+            <a href="#">Know More</a>
+        </div>
+            <section class="sci">
+                <li><a href="#"><img src="https://img.icons8.com/material-outlined/24/000000/facebook-new.png"/></a></li>
+                <li><a href="#"><img src="https://img.icons8.com/material-outlined/24/000000/instagram-new--v1.png"/></a></li>
+            </ul>
+            </section>
+        </section>
+        <div id="navigation">
+            <ul class="nav-bar">
+                <li><a href="#">Home</li>
+                <li><a href="#">Artwork</li>
+                <li><a href="#">About</li>
+            </ul>
+        </div>
+        <script type="text/javascript">
+            function toggle(){
+                var sec = document.getElementById('sec');
+                var nav = document.getElementById('navigation');
+                sec.classList.toggle('active')
+                nav.classList.toggle('active')
+            }
+        </script>
+</body>
